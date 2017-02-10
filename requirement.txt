@@ -1,1 +1,2 @@
 inspyred==1.0.1
+pyHarmonySearch==1.3.3

@@ -1,9 +1,8 @@
 # -*- coding: utf-8 -*-
-
 import time
-import inspyred
 
 from random import Random
+import inspyred
 from inspyred import ec
 from inspyred.ec import terminators
 from optimization.objfunc import calculate_fitness
@@ -21,7 +20,7 @@ def evaluate_optimization(candidates, args):
     global MIN_ERROR
     fitness = []
     for cs in candidates:
-        fn = calculate_fitness(cs)
+        fn = calculate_fitness(cs, 1)
         fitness.append(fn[0])
 
         if MIN_ERROR > min(fitness):
@@ -49,8 +48,9 @@ def optimize_core():
                           evaluator=evaluate_optimization,
                           maximize=False,
                           bounder=inspyred.ec.Bounder([-10.0, -10.0, -10.0], [10.0, 10.0, 10.0]),
-                          max_evaluations=30000,
+                          max_evaluations=50000,
                           num_inputs=1)
+
 
 if __name__ == '__main__':
     optimize_core()
