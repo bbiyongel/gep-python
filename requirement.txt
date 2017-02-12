@@ -1,2 +1,4 @@
 inspyred==1.0.1
+numpy==1.12.0
 pyHarmonySearch==1.3.3
+pyswarm==0.6
