@@ -4,7 +4,8 @@ import math
 d = []
 
 
-def get_data():
+def get_data(embed):
+    global d
     script_row = []
     script_output = []
     output = []
@@ -18,13 +19,14 @@ def get_data():
         output.append(script_output[i][2])
 
     output = list(map(int, output))
+    d = output[:embed]
 
     return output
 
 
-def formula(actual_data, var, embed, i):
+def formula(var, embed, i):
     global d
-    element = actual_data[i:embed]
+    element = d[i:embed]
     y = (((max(element[0],element[1])+(element[1]+element[0]))/2.0)+(pow(var[0],3.0)*pow(var[0],4.0)))
     y = (y + gep3Rt(((pow(var[1],5.0)*(element[0]*element[0]))-pow((element[1]-element[0]),3.0)))) / 2.0
     y = (y + (((var[2]*var[2])*(var[3]*var[3]))-((element[0]/var[4])+(var[5]-element[0])))) / 2.0
@@ -41,21 +43,22 @@ def gep3Rt(x):
         return pow(x, (1.0/3.0))
 
 
-def training(var, embed):
+def prediction(var, embed):
     global d
     d = []
     optimal_rmse = 0
+    i = 0
     del_embed = embed
 
-    actual_data = get_data()
+    actual_data = get_data(embed)
 
-    i = 0
     while embed < 25:
-        formula(actual_data, var, embed, i)
+        formula(var, embed, i)
         i += 1
         embed += 1
 
     for i in range(0, del_embed):
+        del d[i]
         del actual_data[i]
 
     for i in range(0, len(d)):
@@ -65,30 +68,3 @@ def training(var, embed):
     optimal_rmse = math.sqrt(optimal_rmse)
 
     return optimal_rmse
-
-
-def best_training(fitness, embed):
-    global d
-    d = []
-    del_embed = embed
-
-    actual_data = get_data()
-
-    # [int(i) for i in fitness]
-
-    i = 0
-    while embed < 25:
-        formula(actual_data, fitness, embed, i)
-        i += 1
-        embed += 1
-
-    for i in range(0, del_embed):
-        del actual_data[i]
-
-    print("---------------------Best_Training-----------------------")
-    for d_ in d:
-        print(d_)
-
-    print("-----------------------Error-----------------------")
-    for i in range(0, len(d)):
-        print(abs(((actual_data[i] - d[i]) / actual_data[i] * 100)))

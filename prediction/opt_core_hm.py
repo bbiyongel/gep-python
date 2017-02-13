@@ -1,6 +1,6 @@
 from pyharmonysearch import ObjectiveFunctionInterface, harmony_search
 from multiprocessing import cpu_count
-from training import training, best_training
+from prediction import prediction
 
 import random
 
@@ -42,7 +42,7 @@ class ObjectiveFunction(ObjectiveFunctionInterface):
         """
 
         # return -(pow(vector[0], 2) + pow(vector[1] + 1, 2)) + 4 - (vector[2])
-        return training(vector, 3)
+        return prediction(vector, 2)
 
     def get_value(self, i, index=None):
         """
@@ -100,4 +100,3 @@ if __name__ == '__main__':
     num_iterations = num_processes * 5  # each process does 5 iterations
     results = harmony_search(obj_fun, num_processes, num_iterations)
     print('Elapsed time: {}\nBest harmony: {}\nBest fitness: {}'.format(results.elapsed_time, results.best_harmony, results.best_fitness))
-    best_training(results.best_harmony, 3)
