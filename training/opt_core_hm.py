@@ -1,8 +1,12 @@
 from pyharmonysearch import ObjectiveFunctionInterface, harmony_search
 from multiprocessing import cpu_count
 from training import training, best_training
-
+from prediction.prediction import prediction
 import random
+
+############
+EMBED = 2
+###########
 
 
 class ObjectiveFunction(ObjectiveFunctionInterface):
@@ -40,9 +44,7 @@ class ObjectiveFunction(ObjectiveFunctionInterface):
             maximize -(x^2 + (y+1)^2) + 4
             The maximum is 3.75 at (0.5, -1) (remember that x is fixed at 0.5 here).
         """
-
-        # return -(pow(vector[0], 2) + pow(vector[1] + 1, 2)) + 4 - (vector[2])
-        return training(vector, 3)
+        return training(vector, EMBED)
 
     def get_value(self, i, index=None):
         """
@@ -95,9 +97,16 @@ class ObjectiveFunction(ObjectiveFunctionInterface):
         return self._maximize
 
 if __name__ == '__main__':
+
     obj_fun = ObjectiveFunction()
     num_processes = cpu_count()  # use number of logical CPUs
     num_iterations = num_processes * 5  # each process does 5 iterations
     results = harmony_search(obj_fun, num_processes, num_iterations)
+
     print('Elapsed time: {}\nBest harmony: {}\nBest fitness: {}'.format(results.elapsed_time, results.best_harmony, results.best_fitness))
-    best_training(results.best_harmony, 3)
+
+    # training & validation
+    best_training(results.best_harmony, EMBED)
+
+    # prediction
+    prediction(results.best_harmony, EMBED)

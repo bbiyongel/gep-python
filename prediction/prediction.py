@@ -1,10 +1,14 @@
 from os import path
 import math
 
+###########################
+# From Training to Prediction
+NUMBER_OF_ELEMENTS = 46
+###########################
 d = []
 
 
-def get_data(embed):
+def get_data(starting_prediction):
     global d
     script_row = []
     script_output = []
@@ -19,20 +23,21 @@ def get_data(embed):
         output.append(script_output[i][2])
 
     output = list(map(int, output))
-    d = output[:embed]
+    prediction_output = output[:starting_prediction]
 
-    return output
+    return prediction_output, output
 
 
-def formula(var, embed, i):
+def formula(actual_data, var, starting_prediction, embed):
     global d
-    element = d[i:embed]
+    element = actual_data[starting_prediction - embed:starting_prediction]
     y = (((max(element[0],element[1])+(element[1]+element[0]))/2.0)+(pow(var[0],3.0)*pow(var[0],4.0)))
     y = (y + gep3Rt(((pow(var[1],5.0)*(element[0]*element[0]))-pow((element[1]-element[0]),3.0)))) / 2.0
     y = (y + (((var[2]*var[2])*(var[3]*var[3]))-((element[0]/var[4])+(var[5]-element[0])))) / 2.0
     y = (y + (((var[6]+element[1])-(element[0]*var[7]))+(max(var[8],var[9])*pow(var[10],5.0)))) / 2.0
     y = (y + max(((element[0]+element[0])+pow(var[11],5.0)),((element[1]+var[12])+min(element[1],element[1])))) / 2.0
 
+    actual_data.append(y)
     d.append(y)
 
 
@@ -43,28 +48,28 @@ def gep3Rt(x):
         return pow(x, (1.0/3.0))
 
 
-def prediction(var, embed):
+def prediction(fitness, embed):
     global d
     d = []
-    optimal_rmse = 0
-    i = 0
-    del_embed = embed
+    #########################
+    starting_prediction = 25
+    #########################
 
-    actual_data = get_data(embed)
+    actual_data = get_data(starting_prediction)[0]
 
-    while embed < 25:
-        formula(var, embed, i)
-        i += 1
-        embed += 1
+    while starting_prediction < NUMBER_OF_ELEMENTS:
+        formula(actual_data, fitness, starting_prediction, embed)
+        starting_prediction += 1
 
-    for i in range(0, del_embed):
-        del d[i]
-        del actual_data[i]
+    ########################
+    starting_prediction = 25
+    ########################
+    actual_data = get_data(starting_prediction)[1]
 
+    print("-----------------------5. Prediction-----------------------")
     for i in range(0, len(d)):
-        optimal_rmse += math.pow(float(actual_data[i]) - float(d[i]), 2)
+        print('{}년 : '.format(i + 2010), d[i])
 
-    optimal_rmse /= len(d)
-    optimal_rmse = math.sqrt(optimal_rmse)
-
-    return optimal_rmse
+    print("-----------------------6. Prediction Error-----------------------")
+    for i in range(0, 6):
+        print('{}년 : '.format(i + 2010), abs(((actual_data[i + 25] - d[i]) / actual_data[i + 25] * 100)))
