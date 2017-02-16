@@ -32,6 +32,7 @@ def get_data():
 def formula(actual_data, var, embed, i):
     global d
     element = actual_data[i:embed]
+
     ###################################################################################################################
     y = (((max(element[0],element[1])+(element[1]+element[0]))/2.0)+(pow(var[0],3.0)*pow(var[0],4.0)))
     y = (y + gep3Rt(((pow(var[1],5.0)*(element[0]*element[0]))-pow((element[1]-element[0]),3.0)))) / 2.0

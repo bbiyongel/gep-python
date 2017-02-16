@@ -40,7 +40,7 @@ def evaluate_optimization(candidates, args):
 def optimize_core():
     rand = Random()
     rand.seed(int(time.time()))
-    es = ec.GA(rand)
+    es = ec.ES(rand)
 
     es.terminator = terminators.evaluation_termination
     es.observer = inspyred.ec.observers.stats_observer

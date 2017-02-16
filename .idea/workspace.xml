@@ -2,15 +2,67 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="300e0012-91f1-48e7-8667-b58708e7c950" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/optimization/TimeSeries(GRDP) - 복사본.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/optimization/TimeSeries(GRDP).csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prediction/opt_core_hm.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prediction/time_series.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv_window/Lib/site-packages/pkg_resources/_vendor/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv_window/Lib/site-packages/pkg_resources/_vendor/appdirs.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv_window/Lib/site-packages/pkg_resources/_vendor/packaging/__about__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv_window/Lib/site-packages/pkg_resources/_vendor/packaging/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv_window/Lib/site-packages/pkg_resources/_vendor/packaging/_compat.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv_window/Lib/site-packages/pkg_resources/_vendor/packaging/_structures.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv_window/Lib/site-packages/pkg_resources/_vendor/packaging/markers.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv_window/Lib/site-packages/pkg_resources/_vendor/packaging/requirements.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv_window/Lib/site-packages/pkg_resources/_vendor/packaging/specifiers.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv_window/Lib/site-packages/pkg_resources/_vendor/packaging/utils.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv_window/Lib/site-packages/pkg_resources/_vendor/packaging/version.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv_window/Lib/site-packages/pkg_resources/_vendor/pyparsing.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv_window/Lib/site-packages/pkg_resources/_vendor/six.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv_window/Lib/site-packages/pkg_resources/extern/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv_window/Lib/site-packages/setuptools-28.8.0.dist-info/DESCRIPTION.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv_window/Lib/site-packages/setuptools-28.8.0.dist-info/INSTALLER" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv_window/Lib/site-packages/setuptools-28.8.0.dist-info/METADATA" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv_window/Lib/site-packages/setuptools-28.8.0.dist-info/RECORD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv_window/Lib/site-packages/setuptools-28.8.0.dist-info/WHEEL" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv_window/Lib/site-packages/setuptools-28.8.0.dist-info/dependency_links.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv_window/Lib/site-packages/setuptools-28.8.0.dist-info/entry_points.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv_window/Lib/site-packages/setuptools-28.8.0.dist-info/metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv_window/Lib/site-packages/setuptools-28.8.0.dist-info/top_level.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv_window/Lib/site-packages/setuptools-28.8.0.dist-info/zip-safe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv_window/Lib/site-packages/setuptools/extern/__init__.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv_window/Scripts/easy_install-3.6.exe" afterPath="$PROJECT_DIR$/venv_window/Scripts/easy_install-3.6.exe" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv_window/Scripts/easy_install.exe" afterPath="$PROJECT_DIR$/venv_window/Scripts/easy_install.exe" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/optimization/opt_core_pso.py" afterPath="$PROJECT_DIR$/optimization/opt_core_pso.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prediction/prediction.py" afterPath="$PROJECT_DIR$/prediction/prediction.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/training/TimeSeries(GRDP).csv" afterPath="$PROJECT_DIR$/training/TimeSeries(GRDP).csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/training/opt_core_hm.py" afterPath="$PROJECT_DIR$/training/opt_core_hm.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/optimization/opt_core_ga.py" afterPath="$PROJECT_DIR$/optimization/opt_core_ga.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/training/training.py" afterPath="$PROJECT_DIR$/training/training.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/validation/simple.py" afterPath="$PROJECT_DIR$/validation/simple.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv_window/Lib/site-packages/pkg_resources/__init__.py" afterPath="$PROJECT_DIR$/venv_window/Lib/site-packages/pkg_resources/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv_window/Lib/site-packages/setuptools/__init__.py" afterPath="$PROJECT_DIR$/venv_window/Lib/site-packages/setuptools/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv_window/Lib/site-packages/setuptools/command/__init__.py" afterPath="$PROJECT_DIR$/venv_window/Lib/site-packages/setuptools/command/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv_window/Lib/site-packages/setuptools/command/alias.py" afterPath="$PROJECT_DIR$/venv_window/Lib/site-packages/setuptools/command/alias.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv_window/Lib/site-packages/setuptools/command/bdist_egg.py" afterPath="$PROJECT_DIR$/venv_window/Lib/site-packages/setuptools/command/bdist_egg.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv_window/Lib/site-packages/setuptools/command/build_ext.py" afterPath="$PROJECT_DIR$/venv_window/Lib/site-packages/setuptools/command/build_ext.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv_window/Lib/site-packages/setuptools/command/build_py.py" afterPath="$PROJECT_DIR$/venv_window/Lib/site-packages/setuptools/command/build_py.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv_window/Lib/site-packages/setuptools/command/develop.py" afterPath="$PROJECT_DIR$/venv_window/Lib/site-packages/setuptools/command/develop.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv_window/Lib/site-packages/setuptools/command/easy_install.py" afterPath="$PROJECT_DIR$/venv_window/Lib/site-packages/setuptools/command/easy_install.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv_window/Lib/site-packages/setuptools/command/egg_info.py" afterPath="$PROJECT_DIR$/venv_window/Lib/site-packages/setuptools/command/egg_info.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv_window/Lib/site-packages/setuptools/command/py36compat.py" afterPath="$PROJECT_DIR$/venv_window/Lib/site-packages/setuptools/command/py36compat.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv_window/Lib/site-packages/setuptools/command/rotate.py" afterPath="$PROJECT_DIR$/venv_window/Lib/site-packages/setuptools/command/rotate.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv_window/Lib/site-packages/setuptools/command/sdist.py" afterPath="$PROJECT_DIR$/venv_window/Lib/site-packages/setuptools/command/sdist.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv_window/Lib/site-packages/setuptools/command/setopt.py" afterPath="$PROJECT_DIR$/venv_window/Lib/site-packages/setuptools/command/setopt.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv_window/Lib/site-packages/setuptools/command/test.py" afterPath="$PROJECT_DIR$/venv_window/Lib/site-packages/setuptools/command/test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv_window/Lib/site-packages/setuptools/command/upload_docs.py" afterPath="$PROJECT_DIR$/venv_window/Lib/site-packages/setuptools/command/upload_docs.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv_window/Lib/site-packages/setuptools/depends.py" afterPath="$PROJECT_DIR$/venv_window/Lib/site-packages/setuptools/depends.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv_window/Lib/site-packages/setuptools/dist.py" afterPath="$PROJECT_DIR$/venv_window/Lib/site-packages/setuptools/dist.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv_window/Lib/site-packages/setuptools/extension.py" afterPath="$PROJECT_DIR$/venv_window/Lib/site-packages/setuptools/extension.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv_window/Lib/site-packages/setuptools/glob.py" afterPath="$PROJECT_DIR$/venv_window/Lib/site-packages/setuptools/glob.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv_window/Lib/site-packages/setuptools/monkey.py" afterPath="$PROJECT_DIR$/venv_window/Lib/site-packages/setuptools/monkey.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv_window/Lib/site-packages/setuptools/msvc.py" afterPath="$PROJECT_DIR$/venv_window/Lib/site-packages/setuptools/msvc.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv_window/Lib/site-packages/setuptools/namespaces.py" afterPath="$PROJECT_DIR$/venv_window/Lib/site-packages/setuptools/namespaces.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv_window/Lib/site-packages/setuptools/package_index.py" afterPath="$PROJECT_DIR$/venv_window/Lib/site-packages/setuptools/package_index.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv_window/Lib/site-packages/setuptools/py27compat.py" afterPath="$PROJECT_DIR$/venv_window/Lib/site-packages/setuptools/py27compat.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv_window/Lib/site-packages/setuptools/sandbox.py" afterPath="$PROJECT_DIR$/venv_window/Lib/site-packages/setuptools/sandbox.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv_window/Lib/site-packages/setuptools/ssl_support.py" afterPath="$PROJECT_DIR$/venv_window/Lib/site-packages/setuptools/ssl_support.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv_window/Lib/site-packages/setuptools/unicode_utils.py" afterPath="$PROJECT_DIR$/venv_window/Lib/site-packages/setuptools/unicode_utils.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv_window/Lib/site-packages/setuptools/version.py" afterPath="$PROJECT_DIR$/venv_window/Lib/site-packages/setuptools/version.py" />
     </list>
     <ignored path="project-gep-optimization.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,8 +85,8 @@
       <file leaf-file-name="opt_core_hm.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/training/opt_core_hm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="107" column="0" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="111" selection-end-column="43" />
+            <state relative-caret-position="437">
+              <caret line="35" column="17" lean-forward="false" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="17" />
               <folding>
                 <element signature="e#0#70#0" expanded="true" />
               </folding>
@@ -43,10 +95,10 @@
         </entry>
       </file>
       <file leaf-file-name="opt_core_pso.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/optimization/opt_core_pso.py">
+        <entry file="file://$PROJECT_DIR$/training/opt_core_pso.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="46" lean-forward="true" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
+            <state relative-caret-position="475">
+              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -55,10 +107,10 @@
         </entry>
       </file>
       <file leaf-file-name="opt_core_pso.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/training/opt_core_pso.py">
+        <entry file="file://$PROJECT_DIR$/optimization/opt_core_pso.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="512">
-              <caret line="34" column="23" lean-forward="true" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+            <state relative-caret-position="361">
+              <caret line="19" column="88" lean-forward="true" selection-start-line="19" selection-start-column="88" selection-end-line="19" selection-end-column="88" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -67,39 +119,9 @@
         </entry>
       </file>
       <file leaf-file-name="opt_core_hm.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/prediction/opt_core_hm.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="503">
-              <caret line="47" column="11" lean-forward="false" selection-start-line="47" selection-start-column="11" selection-end-line="47" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="codecs.py" pinned="false" current-in-tab="false">
-        <entry file="file://C:/Program Files/Python36/Lib/codecs.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="331" column="0" lean-forward="false" selection-start-line="331" selection-start-column="0" selection-end-line="331" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pso.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv_window/Lib/site-packages/pyswarm/pso.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="113" column="42" lean-forward="false" selection-start-line="113" selection-start-column="42" selection-end-line="113" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="opt_core_hm.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/optimization/opt_core_hm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
+            <state relative-caret-position="586">
               <caret line="103" column="4" lean-forward="false" selection-start-line="103" selection-start-column="4" selection-end-line="103" selection-end-column="138" />
               <folding>
                 <element signature="e#0#70#0" expanded="true" />
@@ -108,24 +130,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="objfunc.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/optimization/objfunc.py">
+      <file leaf-file-name="opt_core_ga.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/training/opt_core_ga.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="4" column="34" lean-forward="false" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
-              <folding />
+            <state relative-caret-position="361">
+              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding>
+                <element signature="e#24#35#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="opt_core_ga.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/training/opt_core_ga.py">
+      <file leaf-file-name="codecs.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Program Files/Python36/Lib/codecs.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="28" column="26" lean-forward="true" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
-              <folding>
-                <element signature="e#24#35#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="6061">
+              <caret line="319" column="0" lean-forward="false" selection-start-line="319" selection-start-column="0" selection-end-line="319" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -133,11 +155,41 @@
       <file leaf-file-name="opt_core_ga.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/optimization/opt_core_ga.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="25" column="33" lean-forward="true" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+            <state relative-caret-position="304">
+              <caret line="22" column="17" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
               <folding>
                 <element signature="e#24#35#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="objfunc.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/optimization/objfunc.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="912">
+              <caret line="49" column="12" lean-forward="false" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="training.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/training/training.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="627">
+              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="prediction.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/prediction/prediction.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="24" column="35" lean-forward="false" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -162,6 +214,8 @@
       <find>start</find>
       <find>weight</find>
       <find>obj</find>
+      <find>Rosenbrock</find>
+      <find>13</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -175,7 +229,6 @@
         <option value="$PROJECT_DIR$/../Python-EP_Optimization/EP_GA.py" />
         <option value="$PROJECT_DIR$/excel/excel.py" />
         <option value="$PROJECT_DIR$/optimization/opt_core.py" />
-        <option value="$PROJECT_DIR$/optimization/opt_core_ga.py" />
         <option value="$PROJECT_DIR$/optimization/opt_core_hm.py" />
         <option value="$PROJECT_DIR$/excel/time_serise.py" />
         <option value="$PROJECT_DIR$/prediction/time_serise.py" />
@@ -185,12 +238,14 @@
         <option value="$PROJECT_DIR$/tranning/tranning.py" />
         <option value="$PROJECT_DIR$/prediction/opt_core_hm.py" />
         <option value="$PROJECT_DIR$/validation/simple.py" />
-        <option value="$PROJECT_DIR$/training/opt_core_ga.py" />
-        <option value="$PROJECT_DIR$/training/training.py" />
         <option value="$PROJECT_DIR$/prediction/prediction.py" />
         <option value="$PROJECT_DIR$/optimization/opt_core_pso.py" />
         <option value="$PROJECT_DIR$/training/opt_core_hm.py" />
         <option value="$PROJECT_DIR$/training/opt_core_pso.py" />
+        <option value="$PROJECT_DIR$/optimization/opt_core_ga - 복사본.py" />
+        <option value="$PROJECT_DIR$/optimization/opt_core_ga.py" />
+        <option value="$PROJECT_DIR$/training/training.py" />
+        <option value="$PROJECT_DIR$/training/opt_core_ga.py" />
       </list>
     </option>
   </component>
@@ -215,8 +270,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -301,6 +354,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -310,24 +365,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.opt_core_pso (1)">
-    <configuration default="false" name="opt_core_hm (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/training" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="project-gep-optimization" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/training/opt_core_hm.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.opt_core_pso">
     <configuration default="false" name="opt_core_ga" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -362,23 +400,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="opt_core_hm" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/optimization" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="project-gep-optimization" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/optimization/opt_core_hm.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
     <configuration default="false" name="opt_core_pso (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -392,6 +413,40 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="project-gep-optimization" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/training/opt_core_pso.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="opt_core_ga - 복사본" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/optimization" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="project-gep-optimization" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/optimization/opt_core_ga - 복사본.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="opt_core_hm" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/training" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="project-gep-optimization" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/training/opt_core_hm.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -531,19 +586,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.opt_core_hm (1)" />
-      <item index="1" class="java.lang.String" itemvalue="Python.opt_core_ga" />
-      <item index="2" class="java.lang.String" itemvalue="Python.opt_core_pso" />
-      <item index="3" class="java.lang.String" itemvalue="Python.opt_core_hm" />
-      <item index="4" class="java.lang.String" itemvalue="Python.opt_core_pso (1)" />
+      <item index="0" class="java.lang.String" itemvalue="Python.opt_core_ga" />
+      <item index="1" class="java.lang.String" itemvalue="Python.opt_core_pso" />
+      <item index="2" class="java.lang.String" itemvalue="Python.opt_core_pso (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Python.opt_core_ga - 복사본" />
+      <item index="4" class="java.lang.String" itemvalue="Python.opt_core_hm" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.opt_core_pso (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Python.opt_core_pso" />
-        <item index="2" class="java.lang.String" itemvalue="Python.opt_core_hm" />
-        <item index="3" class="java.lang.String" itemvalue="Python.opt_core_hm (1)" />
-        <item index="4" class="java.lang.String" itemvalue="Python.opt_core_ga" />
+        <item index="0" class="java.lang.String" itemvalue="Python.opt_core_pso" />
+        <item index="1" class="java.lang.String" itemvalue="Python.opt_core_pso (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.opt_core_ga" />
+        <item index="3" class="java.lang.String" itemvalue="Python.opt_core_hm" />
+        <item index="4" class="java.lang.String" itemvalue="Python.opt_core_ga - 복사본" />
       </list>
     </recent_temporary>
   </component>
@@ -562,18 +617,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14739583" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31413612" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31623036" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.397463" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3937173" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -603,37 +658,16 @@
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/venv_window/Lib/site-packages/inspyred/ec/ec.py</url>
-          <line>132</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/venv_window/Lib/site-packages/pyharmonysearch/harmony_search.py</url>
           <line>60</line>
           <option name="timeStamp" value="26" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="66" />
+      <option name="time" value="69" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://C:/Python27/Lib/site-packages/inspyred/ec/ec.py" />
-    <entry file="file://$PROJECT_DIR$/xlsx/xlsx.py" />
-    <entry file="file://$PROJECT_DIR$/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/optimization/objfunc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="25" lean-forward="false" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/optimization/opt_core.py" />
     <entry file="file://$PROJECT_DIR$/xlsx/xlsx.py" />
     <entry file="file://$PROJECT_DIR$/__init__.py">
@@ -756,13 +790,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/prediction/time_series.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="740">
-          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/validation/simple.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -775,42 +802,59 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="11324">
           <caret line="607" column="0" lean-forward="false" selection-start-line="607" selection-start-column="0" selection-end-line="607" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv_window/Lib/site-packages/pyswarm/pso.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="113" column="42" lean-forward="false" selection-start-line="113" selection-start-column="42" selection-end-line="113" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prediction/opt_core_hm.py" />
+    <entry file="file://$PROJECT_DIR$/venv_window/Lib/site-packages/examples/standard/ga_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="24" column="9" lean-forward="false" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv_window/Lib/site-packages/examples/standard/es_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="10" column="29" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv_window/Lib/site-packages/inspyred/benchmarks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="273" column="33" lean-forward="true" selection-start-line="273" selection-start-column="33" selection-end-line="273" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/venv_window/Lib/site-packages/inspyred/ec/ec.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7961">
-          <caret line="433" column="0" lean-forward="false" selection-start-line="433" selection-start-column="0" selection-end-line="433" selection-end-column="0" />
+        <state relative-caret-position="183">
+          <caret line="545" column="0" lean-forward="false" selection-start-line="545" selection-start-column="0" selection-end-line="545" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/optimization/opt_core_ga - 복사본.py" />
+    <entry file="file://$PROJECT_DIR$/prediction/time_series.py" />
+    <entry file="file://C:/Program Files/Python36/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6061">
+          <caret line="319" column="0" lean-forward="false" selection-start-line="319" selection-start-column="0" selection-end-line="319" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/training/training.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1957">
-          <caret line="104" column="0" lean-forward="true" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prediction/prediction.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/optimization/opt_core_ga.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="25" column="33" lean-forward="true" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+        <state relative-caret-position="304">
+          <caret line="22" column="17" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
           <folding>
             <element signature="e#24#35#0" expanded="true" />
           </folding>
@@ -819,39 +863,61 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/optimization/objfunc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="4" column="34" lean-forward="false" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+        <state relative-caret-position="912">
+          <caret line="49" column="12" lean-forward="false" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv_window/Lib/site-packages/pyswarm/pso.py">
+    <entry file="file://$PROJECT_DIR$/prediction/prediction.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="113" column="42" lean-forward="false" selection-start-line="113" selection-start-column="42" selection-end-line="113" selection-end-column="42" />
+        <state relative-caret-position="437">
+          <caret line="24" column="35" lean-forward="false" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Program Files/Python36/Lib/codecs.py">
+    <entry file="file://$PROJECT_DIR$/training/training.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="331" column="0" lean-forward="false" selection-start-line="331" selection-start-column="0" selection-end-line="331" selection-end-column="0" />
+        <state relative-caret-position="627">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/prediction/opt_core_hm.py">
+    <entry file="file://$PROJECT_DIR$/training/opt_core_ga.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="503">
-          <caret line="47" column="11" lean-forward="false" selection-start-line="47" selection-start-column="11" selection-end-line="47" selection-end-column="11" />
-          <folding />
+        <state relative-caret-position="361">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/training/opt_core_pso.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/training/opt_core_hm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="35" column="17" lean-forward="false" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#70#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/optimization/opt_core_hm.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
+        <state relative-caret-position="586">
           <caret line="103" column="4" lean-forward="false" selection-start-line="103" selection-start-column="4" selection-end-line="103" selection-end-column="138" />
           <folding>
             <element signature="e#0#70#0" expanded="true" />
@@ -862,37 +928,7 @@
     <entry file="file://$PROJECT_DIR$/optimization/opt_core_pso.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
-          <caret line="19" column="46" lean-forward="true" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/training/opt_core_hm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="107" column="0" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="111" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#70#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/training/opt_core_ga.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" column="26" lean-forward="true" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
-          <folding>
-            <element signature="e#24#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/training/opt_core_pso.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="34" column="23" lean-forward="true" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+          <caret line="19" column="88" lean-forward="true" selection-start-line="19" selection-start-column="88" selection-end-line="19" selection-end-column="88" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
